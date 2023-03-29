@@ -90,7 +90,7 @@ P(Semaforo s)
         wait();
 }
 ~~~
-la cual mantendra en espera activa al regido por el semaforo si este tiene un valor inferior o igual a nulo
+La cual mantendra en espera activa al regido por el semaforo si este tiene un valor inferior o igual a nulo.
 
 ~~~
 P(Semaforo s)
@@ -127,4 +127,4 @@ Un semáforo es una estructura diseñada para sincronizar dos o más threads o p
 
 Un semáforo nos sirve para poder permitir o restringir a los procesos o hilos el acceso a algún recurso compartido,Un semáforo básico es una estructura formada por una posición de memoria y dos instrucciones, una para reservarlo y otra para liberarlo. A esto se le puede añadir una cola de threads para recordar el orden en que se hicieron las peticiones. 
 
-asi mismo pasa con la sincronizacion de varios procesos pasando a la misma vez mientra se ejecutan en ambitos diferentes compartiendo lo mismo recursos con relgas que limita el uso de los mismo pero que traer un mayor control de los mismo a la vez un mejor manejo y velocidad del tiempo entre ejecuciones.
+Así mismo pasa con la sincronizacion de varios procesos pasando a la misma vez mientra se ejecutan en ambitos diferentes compartiendo lo mismo recursos con relgas que limita el uso de los mismo pero que traer un mayor control de los mismo a la vez un mejor manejo y velocidad del tiempo entre ejecuciones.
